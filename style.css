@@ -1,0 +1,10 @@
+/* Comments are hidden only when the extension is ON. */
+html.noytcomments-enabled ytd-comments,
+html.noytcomments-enabled #comments {
+  display: none !important;
+}
+
+/* Also hides the comments panel, especially in YouTube Shorts. */
+html.noytcomments-enabled ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-comments-section"] {
+  display: none !important;
+}
